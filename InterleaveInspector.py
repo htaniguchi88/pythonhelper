@@ -8,12 +8,16 @@ def fetch_onecycle(arg_list):
         if j+1 <= len(target_list):
             array.append(target_list[j])
             print(target_list[j])
-        else:
+        else: 
             pass
-            
+
 while j <= len(max((x for x in input), key=len)):
     fetch_onecycle(input)
     j += 1
-    
+
 print(array)
+
+array_string = "".join(array)
+
+print('"' + array_string + ' " ')
 
