@@ -1,15 +1,15 @@
-input = ['地上波', 'ダメ', '絶対']
+input = ['地上波', 'ダメ', '絶対！！']
 array = []
 j = 0
 
-def interleave(arg_list):
+def fetch_onecycle(arg_list):
     for i in range(len(arg_list)):
-       perticular_list = list(arg_list[i])
-       if perticular_list[j] !== null
-        array.append(perticular_list[j])
-        j++
+        target_list = list(arg_list[i])
+        print(target_list[j])
 
-### どこでjの上限値について命令するか
+while j <= len(max((x for x in input), key=len)):
+    fetch_onecycle(input)
+    j += 1
 
-interleave(input)
 print(array)
+
