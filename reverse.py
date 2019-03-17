@@ -1,4 +1,4 @@
-def reverse(input):
+def reverse_all_characters(input):
   input_list = list(input)
  #for character in (reversed(str_list)):
   output_list = [str(i) for i in reversed(input)]
