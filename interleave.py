@@ -19,4 +19,4 @@ def interleave_all_characters(words_list):
 
     print('Output: "' + array_string + '"')
 
-    return array
+    return array_string

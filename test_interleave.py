@@ -6,4 +6,4 @@ class TestInterleave(unittest.TestCase):
 
   def test_interleave_all_characters(self):
     input = ['aa', 'bb', 'cc']
-    self.assertEqual(['a', 'b', 'c', 'a', 'b', 'c'], interleave.interleave_all_characters(input))
+    self.assertEqual('abcabc', interleave.interleave_all_characters(input))
